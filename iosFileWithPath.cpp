@@ -40,4 +40,7 @@ int main(){
         //tutup file tsb setelah selesai
         infile.close();
     }
+    //jika tidak ditemukan file maka akan menampilkan ini
+    else cout << "unable to open file";
+    return 0;
 }
