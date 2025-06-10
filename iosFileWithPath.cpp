@@ -8,5 +8,7 @@ int main(){
     string namafile;
     cout << "Masukkan nama file : ";
     cin >> namafile;
-    
+    //membuka file dalam mode mmebaca
+    ofstream outfile;
+    //
 }
