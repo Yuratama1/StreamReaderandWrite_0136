@@ -7,4 +7,9 @@ int main(){
         throw 0.5; // melempar sebuah integr maka
         cout << "Pernyataan tdk akan diekseskusi" << endl;
     }
+    catch(int a){
+        //blok akan di eksekusi
+        cout << "Pengecualian akan dikesekusi" << endl;
+    }
     
+}
