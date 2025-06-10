@@ -10,5 +10,7 @@ int main(){
     cin >> namafile;
     //membuka file dalam mode mmebaca
     ofstream outfile;
-    //
+    //menunjuk ke debuah nama file
+    outfile.open(namafile + ",txt", ios::out);
+    cout << ">= Menulis file \'q'\' untuk keluar" << endl;
 }
