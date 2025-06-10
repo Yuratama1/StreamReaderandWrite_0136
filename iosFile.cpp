@@ -25,4 +25,7 @@ int main(){
     outfile.close();
     //mmebuka file dalam mode membaca
     ifstream infile;
+    //menujuk ke sebuah file
+    infile.open("contohfile.Text");
+    cout << endl << ">= membuka dan membaca file " << endl;
 }
